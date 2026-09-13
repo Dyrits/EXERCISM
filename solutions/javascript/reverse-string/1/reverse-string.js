@@ -1,0 +1,1 @@
+export const reverseString = (str) => str.length > 1 ? reverseString(str.substring(1)) + str.charAt(0) : str;
